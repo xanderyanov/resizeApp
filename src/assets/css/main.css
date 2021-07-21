@@ -1,0 +1,285 @@
+html,
+body {
+	color: #000;
+	font-family: "Roboto Condensed", sans-serif;
+	/* font-family: "Open Sans", serif; */
+	/* font-family: "Roboto", sans-serif; */
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.2;
+	position: relative;
+	height: 100%;
+	background: #fafafa;
+	display: flex;
+	flex-direction: column;
+}
+
+.site__header {
+	position: relative;
+}
+
+.site__center {
+	position: relative;
+	padding: 0 0 20px;
+}
+
+.site__footer {
+	position: relative;
+	margin-top: auto;
+}
+
+.wsite {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.wideBlock__area {
+	width: 100%;
+}
+.wideBlock {
+	position: relative;
+}
+
+.title1 {
+	position: relative;
+	width: 100%;
+}
+
+.title1 h2 {
+	font-weight: 300;
+	font-size: 2.625rem;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+
+.title1_uppercase h2 {
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.titleTAL {
+	position: relative;
+	width: 100%;
+}
+
+.title3 h1,
+.title3 h2 {
+	margin: 0;
+}
+
+.pageTitle {
+	margin: 0 0 25px 0;
+}
+.pageTitle h1,
+.pageTitle h2,
+.pageTitle h3 {
+	margin: 0;
+}
+
+.btn2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color2);
+	background: #fafafa;
+	border: 2px solid var(--color2);
+	box-sizing: border-box;
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 0.75rem 2rem;
+	margin: 30px 0 50px;
+	transition: all 0.3s;
+}
+
+.btn2:hover {
+	color: var(--red1);
+	border: 2px solid var(--red1);
+}
+
+.btn3_centredWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+a.btn3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* width: 90%; */
+	/* max-width: 240px; */
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color2);
+	background: #fafafa;
+	border: 2px solid var(--color2);
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 0.75rem 2rem;
+	margin: 30px auto 0;
+	transition: all 0.3s;
+	text-decoration: none;
+	/* white-space: nowrap; */
+	text-align: center;
+}
+
+a.btn3:hover {
+	color: var(--red1);
+	border: 2px solid var(--red1);
+}
+
+.mt0 {
+	margin-top: 0;
+}
+.mb0 {
+	margin-bottom: 0;
+}
+.pt0 {
+	padding-top: 0;
+}
+.pb0 {
+	padding-bottom: 0;
+}
+
+.title0 h1,
+.title0 h2,
+.title0 h3 {
+	margin: 0 0 20px;
+}
+
+.block__video,
+.block__photo {
+	margin: 20px 0 0 0;
+}
+
+.summaryBlock {
+	float: right;
+}
+
+.summaryBlock_video {
+	width: 50%;
+}
+
+.summaryBlock_img {
+	width: auto;
+}
+
+.summaryBlock__inner {
+	padding: 0 0 20px 20px;
+}
+
+.summaryBlock__introImg {
+	width: 100%;
+	background: #4f4f4f;
+}
+
+.summaryBlock img {
+	max-width: 100%;
+	display: block;
+	margin: 0;
+	height: auto;
+}
+
+.searchResults__area {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.searchResults {
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	background: #fff;
+	border: 1px solid #f2f2f2;
+	border-radius: 6px;
+}
+
+.searchResult__outer {
+	padding: 20px 0;
+	border-bottom: 1px solid #e0e0e0;
+	width: 100%;
+}
+
+.searchResult__outer:last-child {
+	border-bottom: none;
+}
+
+.searchResult {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	flex-wrap: wrap;
+}
+
+.searchResult__img {
+	width: 15%;
+	max-width: 100px;
+}
+
+.searchResult__img img {
+	display: block;
+	width: 100%;
+}
+
+.searchResult__info {
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px 0 20px;
+}
+
+.searchResult__info span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.04em;
+	color: #4f4f4f;
+}
+
+.searchResult__info span:last-child {
+	font-weight: bold;
+	margin-top: 0.5rem;
+	text-transform: uppercase;
+}
+
+.searchResult:hover .searchResult__info span {
+	color: var(--red1);
+}
+
+.searchResult__priceArea {
+	margin-left: auto;
+}
+
+.searchResult__OldPrice {
+	margin-bottom: 0.3125rem;
+	text-decoration: line-through;
+	font-size: 1rem;
+	font-style: italic;
+	color: #a6a6a6;
+	margin-right: 1rem;
+}
+
+.searchResult__Price {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #4f4f4f;
+}
+
+.mt30 {
+	margin-top: 30px;
+}

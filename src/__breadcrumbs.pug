@@ -1,0 +1,53 @@
+mixin breadcrumbs
+  .breadcrumbs__area.w0
+    .breadcrumbs.w1
+      div
+        a(href='#') Главная 
+      |           /
+      div
+        a(href='#') Категория 
+      |           /
+      div
+        span Текущий пункт
+
+mixin breadcrumbs3
+  .breadcrumbs3__area.w0
+    .breadcrumbs3__wrapper
+      .breadcrumbs3.w1
+        div
+          a(href='#') Главная 
+        |           /
+        div
+          a(href='#') Категория 
+        |           /
+        div
+          span Текущий пункт
+      .backBtn3__outer
+        .backBtn3 
+          i.icon-leftss2
+          span Назад
+
+mixin backBtnOnly 
+  .backBtn3__outer.backBtn3__outer_inLeft
+    .backBtn3 
+      i.icon-leftss2
+      span Назад
+
+
+mixin breadcrumbs4
+  .breadcrumbs3__area
+    .breadcrumbs3__wrapper.wsite
+      .backBtn4__outer
+        .backBtn3 
+          i.icon-leftss2
+          span Назад
+      .breadcrumbs3
+        div
+          a(href='#') Главная 
+        |           /
+        div
+          a(href='#') Категория 
+        |           /
+        div
+          span Текущий пункт
+      

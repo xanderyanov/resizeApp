@@ -1,0 +1,54 @@
+.pag__area {
+	width: 100%;
+}
+
+.blog__outer .pag__area {
+	width: 100%;
+	padding-top: 20px;
+}
+
+.pag__outer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 1rem 0 1rem;
+}
+
+.pag {
+	display: flex;
+	align-items: center;
+}
+
+a.pag__item {
+	text-decoration: none;
+	height: 2.5rem;
+	min-width: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	color: #000;
+	background: var(--colorLightGrey);
+	margin: 5px;
+	padding: 0 0.5rem;
+	transition: all 0.3s;
+	border-radius: 50%;
+}
+
+a.pag__item:hover {
+	background: rgba(196, 187, 234, 0.35);
+}
+
+a.pag__item.active {
+	color: #fff;
+	background: var(--color1);
+}
+
+a.pag__item i {
+	font-size: 1rem;
+	color: #000;
+}
+
+a.pag__item.active i {
+	color: #fff;
+}

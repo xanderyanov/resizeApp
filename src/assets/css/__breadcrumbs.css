@@ -1,0 +1,137 @@
+.breadcrumbs__area {
+	padding: 10px 0 10px;
+}
+.breadcrumbs {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	color: var(--tc0);
+	font-size: 0.75rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.breadcrumbs div:first-child {
+	margin: 0 5px 0 0;
+}
+.breadcrumbs div {
+	margin: 0 5px;
+}
+.breadcrumbs div a {
+	color: var(--tc0);
+	font-size: 0.75rem;
+	font-weight: 300;
+	line-height: 1.2;
+	text-decoration: none;
+	display: flex;
+	position: relative;
+}
+.breadcrumbs div a:hover {
+	color: var(--reden);
+	text-decoration: underline;
+}
+
+.breadcrumbs div span {
+	color: var(--reden);
+	font-size: 0.75rem;
+	font-weight: 600;
+	line-height: 1.2;
+	text-decoration: none;
+	display: block;
+	position: relative;
+}
+
+/*****************************************/
+
+.breadcrumbs3__area {
+	padding: 20px 0 20px;
+}
+
+.breadcrumbs3__wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.breadcrumbs3 {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #4f4f4f;
+	font-size: 0.75rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.breadcrumbs3 div:first-child {
+	margin: 0 5px 0 0;
+}
+.breadcrumbs3 div {
+	margin: 0 5px;
+}
+.breadcrumbs3 div a {
+	color: #4f4f4f;
+	font-size: 0.75rem;
+	font-weight: 400;
+	line-height: 1.2;
+	text-decoration: none;
+	display: flex;
+	position: relative;
+}
+.breadcrumbs3 div a:hover {
+	color: var(--color1);
+	text-decoration: underline;
+}
+
+.breadcrumbs3 div span {
+	color: #828282;
+	font-size: 0.75rem;
+	font-weight: 400;
+	line-height: 1.2;
+	text-decoration: none;
+	display: block;
+	position: relative;
+}
+
+.backBtn3__outer {
+	display: none;
+	margin-left: auto;
+}
+
+.backBtn4__outer {
+	/* display: none; */
+	/* margin-right: auto; */
+	border-right: 1px solid #bdbdbd;
+	padding: 0 15px 0 0;
+	margin: 0 15px 0 0;
+}
+
+.backBtn3__outer_inLeft {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.backBtn3 {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.backBtn3 i {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+.backBtn3 span {
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	margin-left: 10px;
+}

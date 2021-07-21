@@ -1,0 +1,150 @@
+.innerBox {
+  width: 100%;
+  padding: 10px 0 10px;
+  border-top: 2px solid var(--x1greyLight);
+  margin-top: 20px;
+}
+
+.gallery {
+  margin: 0 -5px;
+  display: flex;
+  /*justify-content: space-around;*/
+  flex-wrap: wrap;
+}
+
+.gallery__item {
+  width: 16.666%;
+  padding: 5px;
+}
+
+.gallery__item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery__item a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(112, 112, 112, 0.6);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../img/zoom.png);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.gallery__item a:hover:after {
+  opacity: 1;
+}
+
+.gallery__item a img {
+  display: block;
+  width: 100%;
+  transition: all 0.5s;
+  margin: 0 !important;
+}
+
+.gallery__item a:hover img {
+  transform: scale(1.05);
+}
+
+.videoBox__area {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+  justify-content: center;
+}
+
+.videoBox__outer {
+  padding: 5px;
+  width: 50%;
+}
+
+.videoBox {
+  position: relative;
+  border: 2px solid #eee;
+}
+
+/* .videoBox:hover {
+
+} */
+
+.videoBox a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(112, 112, 112, 0.6);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../img/play.png);
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.videoBox a:hover:after {
+  opacity: 0;
+}
+
+.videoBox a {
+  display: block;
+  text-decoration: none;
+}
+
+.videoBox a img {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.videoBox a span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px;
+  color: var(--tc0);
+}
+
+.videoBox a:hover span {
+  opacity: 1;
+}
+
+.videoBox iframe {
+}
+
+.videoBox_i {
+  position: relative;
+  padding: 0 0 56.25% 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.videoBox_i iframe,
+.videoBox_i object,
+.videoBox_i embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
